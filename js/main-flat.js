@@ -19,7 +19,7 @@ $(window).load(function() {
     MESSAGES = [];
     MESSAGES.push({
         delay: 0,
-        text: 'Hello,'
+        text: 'Hey,'
     });
     MESSAGES.push({
         delay: 800,
