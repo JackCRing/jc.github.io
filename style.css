@@ -252,7 +252,7 @@ a.button:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: Black;
+    background-color: blue;
     /* 这里是菜单关闭按钮的背景色 */
     z-index: -1;
     transition: .3s;
