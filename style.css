@@ -1138,16 +1138,16 @@ footer {
     #toggle {
         padding: 0;
     }
-
+/* 这里是改变 logo 位置 */
     .menu-holder-front {
         display: block;
         position: relative;
         width: calc(100% - 30px);
-        left: 15px;
+        left: 10px;
     }
 
     .toggle-holder {
-        right: 15px;
+        right: 10px;
         top: 0;
         position: absolute;
         margin-left: 0;
