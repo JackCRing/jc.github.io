@@ -40,7 +40,7 @@ body {
     line-height: 36px;
     font-weight: 400;
     color: #ffffff;
-    background-color: #FCFCFC;
+    background-color: #EDEDED;
     overflow-x: hidden;
 }
 
@@ -612,7 +612,7 @@ a.social-text {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.05);
     left: 0;
     top: 0;
     opacity: 0;
@@ -620,7 +620,7 @@ a.social-text {
 }
 
 .portfolio-text-holder {
-    color: white;
+    color: blue;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -638,7 +638,7 @@ a.social-text {
     font-weight: 500;
     letter-spacing: 3px;
     margin-bottom: 0;
-    border: 1px solid;
+    border: 3px solid;
     padding: 12px 25px;
 }
 
