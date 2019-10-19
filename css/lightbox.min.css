@@ -6,11 +6,14 @@
 }
 
 body.lb-disable-scrolling {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .lightboxOverlay {
   position: absolute;
+  /* visibility:visible;
+  overflow-y:auto;
+  overflow-x: hidden; */
   top: 0;
   left: 0;
   z-index: 9999;
@@ -75,8 +78,9 @@ body.lb-disable-scrolling {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 0%;
+  width: 0%;
+  /* 操作蒙版 */
   z-index: 10
 }
 
