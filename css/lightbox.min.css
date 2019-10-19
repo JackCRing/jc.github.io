@@ -10,7 +10,8 @@ body.lb-disable-scrolling {
 }
 
 .lightboxOverlay {
-  position: absolute;
+  overflow: hidden;
+  position: fixed;
   /* visibility:visible;
   overflow-y:auto;
   overflow-x: hidden; */
@@ -20,7 +21,7 @@ body.lb-disable-scrolling {
   background-color: #000;
   filter: alpha(Opacity=80);
   opacity: .95;
-  display: none
+  display: block;
 }
 
 .lightbox {
