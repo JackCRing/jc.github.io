@@ -252,7 +252,7 @@ a.button:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: blue;
+    background-color: yellow;
     /* 这里是菜单关闭按钮的背景色 */
     z-index: -1;
     transition: .3s;
@@ -291,7 +291,7 @@ a.button:hover {
 
 #toggle.on:before {
     transform: rotate3d(0, 0, 1, 45deg) translate3d(0, 0, 0);
-    background-color: #fff;
+    background-color: black;
     margin-left: 5px;
     margin-top: -2px;
     width: 26px !important;
@@ -300,7 +300,7 @@ a.button:hover {
 
 #toggle.on:after {
     transform: rotate3d(0, 0, 1, -45deg);
-    background-color: #fff;
+    background-color: black;
     margin-left: 5px !important;
     margin-top: -2px;
     width: 26px !important;
@@ -620,7 +620,7 @@ a.social-text {
 }
 
 .portfolio-text-holder {
-    color: blue;
+    color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -633,13 +633,16 @@ a.social-text {
 }
 
 .portfolio-title {
+    font-family: sans-serif;
     font-size: 14px;
-    line-height: 120%;
-    font-weight: 500;
-    letter-spacing: 3px;
+    line-height: 100%;
+    font-weight: bolder;
+    /* letter-spacing: -0.5px; */
     margin-bottom: 0;
-    border: 3px solid;
-    padding: 12px 25px;
+    background-color: Yellow;
+    /* border: 3px solid; */
+    padding: 12px 16px;
+    /* border-radius: 24px; */
 }
 
 .grid-item a.item-link:hover:after,
