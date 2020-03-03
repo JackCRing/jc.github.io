@@ -38,14 +38,24 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     line-height: 36px;
-    font-weight: 400;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #EDEDED;
+    /* overflow-x: hidden; */
+}
+
+body Text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 600;
     color: #ffffff;
     background-color: #EDEDED;
     overflow-x: hidden;
 }
 
 body.page-background {
-    background-image: url("images/lines.png");
+    /* background-image: url("images/lines.png"); */
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -559,7 +569,7 @@ a.social-text {
 #portfolio-grid {
     transition: all .5s ease;
     opacity: 1;
-    transform: translateY(0px);
+    /* transform: translateY(0px); */
     padding: 0;
     list-style: none;
 }
@@ -620,6 +630,7 @@ a.social-text {
 }
 
 .portfolio-text-holder {
+    radius:10px;
     color: black;
     position: absolute;
     top: 50%;
@@ -630,9 +641,11 @@ a.social-text {
     transform: translate(-50%, -50%);
     transition: all .3s ease;
     text-align: center;
+
 }
 
 .portfolio-title {
+
     font-family: sans-serif;
     font-size: 14px;
     line-height: 100%;
@@ -1053,30 +1066,40 @@ footer {
 }
 
 .footer-content {
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 500;
     color: #6f6f6f;
     margin-top: 150px;
+    margin-bottom: 30px;
+
 }
 
 .footer-content a {
+    font-size: 12px;
+    font-weight: 500;
     color: #acacac;
+
 }
 
 .footer-content a:hover {
-    color: #fff;
+    color: yellow;
 }
 
 .footer-logo img {
     width: 80px;
     /* 135px */
     height: 80px;
-    margin: 0 auto 55px;
+    margin: 0 auto 20px;
     display: block;
 }
 
 .copyright-holder {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0;
+    /* margin-bottom: 30px; */
 }
+
 
 
 /* ===================================
